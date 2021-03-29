@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7 Maravilhas do Mundo</title>
+    <link rel="stylesheet" href="./style.css"> </a>
+</head>
+
+<body>
+     <div class="container">
+          <span class="baixo-esquerda"></span>
+         
+    <h1>7 Maravilhas do Mundo</h1>
+    Escolha uma das 7 Maravilhas: </br></br>
+    <input type="button" name="MC" value="Muralha da China" onclick="descreverM()">
+    <input type="button" name="P" value="Ruínas de Petra" onclick="descreverP()">
+    <input type="button" name="Co" value="Coliseu" onclick="descreverCo()">
+</br> </br>
+
+    <input type="button" name="I" value="Chichen Itzá" onclick="descreverI()">
+    <input type="button" name="Ma" value="Machu Pichu" onclick="descreverMa()">
+    <input type="button" name="Taj" value="Taj Mahal" onclick="descreverTaj()">
+    <input type="button" name="C" value="Cristo Redentor" onclick="descreverC()">
+    
+    
+    <div id="res">
+    </div>
+    <div id="res1">
+     </div>
+     <div id="res2">
+     </div>
+     <div id="res3">
+     </div>
+     <div id="res4">
+     </div>
+     
+     <p> </p>
+
+       
+    <script>
+        function descreverM(){
+            var res = window.document.querySelector("div#res")
+        res.innerHTML = "A <strong>Muralha da China</strong> ou Grande Muralha é uma construção que tem 21.196 quilômetros de comprimento."
+        var res1 = window.document.querySelector("div#res1")
+        res1.innerHTML = "Tem a altura de 8 metros e mede 4 metros de largura."
+        var res2 = window.document.querySelector("div#res2")
+        res2.innerHTML = "Ela começa na província de Gansu e termina no Golfo de Bohai."
+        var res3 = window.document.querySelector("div#res3")
+        res3.innerHTML = "Tendo em conta a sua grandiosidade arquitetônica e sua história, é considerada uma das Sete Maravilhas do Mundo Moderno."
+        var res4 = window.document.querySelector("div#res4")
+        res4.innerHTML = "Por esse motivo, é uma das principais atrações turísticas da China, recebendo mais de 4 milhões de visitas por ano."   
+                
+    }
+
+        function descreverP(){
+          var res = window.document.querySelector("div#res")
+        res.innerHTML = "<strong>Petra</strong> é um famoso sítio arqueológico no deserto do sudoeste da Jordânia."
+        var res1 = window.document.querySelector("div#res1")
+        res1.innerHTML = "Datada, sensivelmente, de 300 a.C., era a capital do Reino Nabateu."
+        var res2 = window.document.querySelector("div#res2")
+        res2.innerHTML = "A estrutura mais conhecida será talvez o Al Khazneh, com 45 metros de altura."
+        var res3 = window.document.querySelector("div#res3")
+        res3.innerHTML = "que é um templo com uma fachada ornamentada de estilo grego também conhecido como o Tesouro."
+       
+            
+        }
+
+        function descreverCo(){
+          var res = window.document.querySelector("div#res")
+        res.innerHTML = "Também conhecido como Anfiteatro Flaviano, o <strong>Coliseu</strong> é o principal símbolo de Roma, na Itália."
+        var res1 = window.document.querySelector("div#res1")
+        res1.innerHTML = "Palco de lutas entre gladiadores e de massacres de cristãos, hoje conserva apenas uma parte de sua estrutura."
+        var res2 = window.document.querySelector("div#res2")
+        res2.innerHTML = "Construído em 70 d.C., é uma das maiores construções do Império Romano."
+        
+            
+        }
+
+        function descreverI(){
+          var res = window.document.querySelector("div#res")
+        res.innerHTML = "A Cidade Maia de <strong>Chichén Itzá</strong>  localiza-se na província mexicana de Iucatã."
+        var res1 = window.document.querySelector("div#res1")
+        res1.innerHTML = "Compõem as estruturas da cidade a pirâmide de Kukulkan,"
+        var res2 = window.document.querySelector("div#res2")
+        res2.innerHTML = "o Templo de Chac Mool, a Praça das Mil Colunas e o Campo de Jogos dos Prisioneiros"
+        var res3 = window.document.querySelector("div#res3")
+        res3.innerHTML = "formando um belo sítio arqueológico desta civilização americana."
+        
+            
+        }
+
+        function descreverMa(){
+          var res = window.document.querySelector("div#res")
+        res.innerHTML = "Construída no século XV, <strong>Machu Picchu</strong> em quíchua, Machu Picchu significa “velha montanha”"
+        var res1 = window.document.querySelector("div#res1")
+        res1.innerHTML = "é também conhecida como “cidade perdida dos Incas“."
+        var res2 = window.document.querySelector("div#res2")
+        res2.innerHTML = "Localizada no topo de uma montanha da cordilheira dos Andes, a 2400 metros de altitude, no vale do rio Urubamba, atual Peru."
+        var res3 = window.document.querySelector("div#res3")
+        res3.innerHTML = "a cidade hoje é o principal símbolo do Império Inca, que foi destruído com a chegada dos espanhóis à região no século XVI."
+        
+            
+        }
+
+        function descreverTaj(){
+          var res = window.document.querySelector("div#res")
+        res.innerHTML = "O <strong>Taj Mahal</strong> é um mausoléu situado em Agra, pequena cidade da Índia, e construído entre 1630 e 1652."
+        var res1 = window.document.querySelector("div#res1")
+        res1.innerHTML = "Feito de mármore branco por ordem do imperador Shah Jahan, em memória de sua esposa, Aryumand Banu Begam,"
+        var res2 = window.document.querySelector("div#res2")
+        res2.innerHTML = "o Taj Mahal é também conhecido como uma das maiores provas de amor do mundo,"
+        var res3 = window.document.querySelector("div#res3")
+        res3.innerHTML = "contendo inscrições retiradas do alcorão e incrustado de pedras semipreciosas."
+        
+        
+        }
+
+        function descreverC(){
+          var res = window.document.querySelector("div#res")
+        res.innerHTML = "Localizado no Rio de Janeiro, o <strong>Cristo Redentor</strong> mede 38 metros e foi construído sobre o morro do Corcovado."
+        var res1 = window.document.querySelector("div#res1")
+        res1.innerHTML = "É o maior símbolo da cidade carioca e também um símbolo do cristianismo brasileiro, "
+        var res2 = window.document.querySelector("div#res2")
+        res2.innerHTML = "sendo inaugurado no dia 12 de outubro de 1931."
+        
+        
+        }       
+
+        
+    </script>
+
+
+              
+    </body>
+</html>

@@ -1,0 +1,108 @@
+h1 {
+    color: brown;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align-items: center;
+    padding: 15px;
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    
+}
+body{
+    background-color: #9b634e;
+    color: black;
+}
+
+body .container{
+    margin: 100px;
+    background-color: burlywood;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px 400px 80px 400px;
+    text-align: center;
+    border: 3px solid black;
+}
+
+
+input[type="button" i] {
+    appearance: auto;
+    user-select: none;
+    white-space: pre;
+    align-items: flex-start;
+    text-align: center;
+    cursor: default;
+    color: brown;
+    background-color: burlywood;
+    box-sizing: border-box;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: #9b634e;
+    border-image: initial;
+}
+
+div#res {
+    padding-top: 5%;
+    text-align: left;
+}
+
+div#res1 {
+    text-align: left;
+}
+
+div#res2 {
+    text-align: left;
+}
+
+div#res3 {
+    text-align: left;
+}
+
+div#res4 {
+    text-align: left;
+}
+
+/* MEDIA */
+
+
+.container .baixo-esquerda {
+    bottom: -2px;
+    right: -2px;
+    animation-name: aumentarLargura, aumentarAltura;
+    animation-duration: 1s, 1s;
+    animation-delay: 4s, 5s;
+    animation-fill-mode: forwards;
+    border-bottom-color: black;
+    border-left-color: black;
+}
+
+.container .baixo-esquerda span {
+    position: absolute;
+    display: block;
+    width: 0;
+    height: 0;
+    border: 2px solid transparent;
+}
+
+@keyframes aumentarLargura{
+0% {
+    width: 0;
+    }
+
+100% {
+    width: 100%;
+    }
+}
+
+@keyframes aumentarAltura{
+    0% {
+        width: 0;
+        }
+    
+    100% {
+        width: 100%;
+        }
+    }
